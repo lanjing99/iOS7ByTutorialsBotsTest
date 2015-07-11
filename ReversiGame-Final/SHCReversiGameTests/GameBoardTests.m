@@ -53,4 +53,8 @@
                                  @"Out-of-bounds board access should raise an exception");
 }
 
+-(void)test_testFailFoBotsOnCommitTest
+{
+    XCTFail(@"this is a fail test for bots");
+}
 @end
